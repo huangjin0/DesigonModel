@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B15541F1BD291F3007C0131 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15541E1BD291F3007C0131 /* main.m */; };
+		1B1554221BD291F3007C0131 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1554211BD291F3007C0131 /* AppDelegate.m */; };
+		1B1554251BD291F3007C0131 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1554241BD291F3007C0131 /* ViewController.m */; };
+		1B1554281BD291F3007C0131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B1554261BD291F3007C0131 /* Main.storyboard */; };
+		1B15542A1BD291F3007C0131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1554291BD291F3007C0131 /* Assets.xcassets */; };
+		1B15542D1BD291F3007C0131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B15542B1BD291F3007C0131 /* LaunchScreen.storyboard */; };
+		1B1554381BD291F4007C0131 /* DesigonModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1554371BD291F4007C0131 /* DesigonModelTests.m */; };
+		1B1554431BD291F4007C0131 /* DesigonModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1554421BD291F4007C0131 /* DesigonModelUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B1554341BD291F4007C0131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1554121BD291F3007C0131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1554191BD291F3007C0131;
+			remoteInfo = DesigonModel;
+		};
+		1B15543F1BD291F4007C0131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B1554121BD291F3007C0131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1554191BD291F3007C0131;
+			remoteInfo = DesigonModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B15541A1BD291F3007C0131 /* DesigonModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesigonModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B15541E1BD291F3007C0131 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B1554201BD291F3007C0131 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B1554211BD291F3007C0131 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B1554231BD291F3007C0131 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B1554241BD291F3007C0131 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B1554271BD291F3007C0131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B1554291BD291F3007C0131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B15542C1BD291F3007C0131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B15542E1BD291F3007C0131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1554331BD291F4007C0131 /* DesigonModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesigonModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1554371BD291F4007C0131 /* DesigonModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesigonModelTests.m; sourceTree = "<group>"; };
+		1B1554391BD291F4007C0131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B15543E1BD291F4007C0131 /* DesigonModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesigonModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B1554421BD291F4007C0131 /* DesigonModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesigonModelUITests.m; sourceTree = "<group>"; };
+		1B1554441BD291F4007C0131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B1554171BD291F3007C0131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1554301BD291F4007C0131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B15543B1BD291F4007C0131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B1554111BD291F3007C0131 = {
+			isa = PBXGroup;
+			children = (
+				1B15541C1BD291F3007C0131 /* DesigonModel */,
+				1B1554361BD291F4007C0131 /* DesigonModelTests */,
+				1B1554411BD291F4007C0131 /* DesigonModelUITests */,
+				1B15541B1BD291F3007C0131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B15541B1BD291F3007C0131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B15541A1BD291F3007C0131 /* DesigonModel.app */,
+				1B1554331BD291F4007C0131 /* DesigonModelTests.xctest */,
+				1B15543E1BD291F4007C0131 /* DesigonModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B15541C1BD291F3007C0131 /* DesigonModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B1554201BD291F3007C0131 /* AppDelegate.h */,
+				1B1554211BD291F3007C0131 /* AppDelegate.m */,
+				1B1554231BD291F3007C0131 /* ViewController.h */,
+				1B1554241BD291F3007C0131 /* ViewController.m */,
+				1B1554261BD291F3007C0131 /* Main.storyboard */,
+				1B1554291BD291F3007C0131 /* Assets.xcassets */,
+				1B15542B1BD291F3007C0131 /* LaunchScreen.storyboard */,
+				1B15542E1BD291F3007C0131 /* Info.plist */,
+				1B15541D1BD291F3007C0131 /* Supporting Files */,
+			);
+			path = DesigonModel;
+			sourceTree = "<group>";
+		};
+		1B15541D1BD291F3007C0131 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B15541E1BD291F3007C0131 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B1554361BD291F4007C0131 /* DesigonModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1554371BD291F4007C0131 /* DesigonModelTests.m */,
+				1B1554391BD291F4007C0131 /* Info.plist */,
+			);
+			path = DesigonModelTests;
+			sourceTree = "<group>";
+		};
+		1B1554411BD291F4007C0131 /* DesigonModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B1554421BD291F4007C0131 /* DesigonModelUITests.m */,
+				1B1554441BD291F4007C0131 /* Info.plist */,
+			);
+			path = DesigonModelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B1554191BD291F3007C0131 /* DesigonModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B1554471BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModel" */;
+			buildPhases = (
+				1B1554161BD291F3007C0131 /* Sources */,
+				1B1554171BD291F3007C0131 /* Frameworks */,
+				1B1554181BD291F3007C0131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesigonModel;
+			productName = DesigonModel;
+			productReference = 1B15541A1BD291F3007C0131 /* DesigonModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B1554321BD291F4007C0131 /* DesigonModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B15544A1BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModelTests" */;
+			buildPhases = (
+				1B15542F1BD291F4007C0131 /* Sources */,
+				1B1554301BD291F4007C0131 /* Frameworks */,
+				1B1554311BD291F4007C0131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1554351BD291F4007C0131 /* PBXTargetDependency */,
+			);
+			name = DesigonModelTests;
+			productName = DesigonModelTests;
+			productReference = 1B1554331BD291F4007C0131 /* DesigonModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B15543D1BD291F4007C0131 /* DesigonModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B15544D1BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModelUITests" */;
+			buildPhases = (
+				1B15543A1BD291F4007C0131 /* Sources */,
+				1B15543B1BD291F4007C0131 /* Frameworks */,
+				1B15543C1BD291F4007C0131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B1554401BD291F4007C0131 /* PBXTargetDependency */,
+			);
+			name = DesigonModelUITests;
+			productName = DesigonModelUITests;
+			productReference = 1B15543E1BD291F4007C0131 /* DesigonModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B1554121BD291F3007C0131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = HuangJin;
+				TargetAttributes = {
+					1B1554191BD291F3007C0131 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					1B1554321BD291F4007C0131 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1B1554191BD291F3007C0131;
+					};
+					1B15543D1BD291F4007C0131 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 1B1554191BD291F3007C0131;
+					};
+				};
+			};
+			buildConfigurationList = 1B1554151BD291F3007C0131 /* Build configuration list for PBXProject "DesigonModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B1554111BD291F3007C0131;
+			productRefGroup = 1B15541B1BD291F3007C0131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1554191BD291F3007C0131 /* DesigonModel */,
+				1B1554321BD291F4007C0131 /* DesigonModelTests */,
+				1B15543D1BD291F4007C0131 /* DesigonModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B1554181BD291F3007C0131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B15542D1BD291F3007C0131 /* LaunchScreen.storyboard in Resources */,
+				1B15542A1BD291F3007C0131 /* Assets.xcassets in Resources */,
+				1B1554281BD291F3007C0131 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B1554311BD291F4007C0131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B15543C1BD291F4007C0131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B1554161BD291F3007C0131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1554251BD291F3007C0131 /* ViewController.m in Sources */,
+				1B1554221BD291F3007C0131 /* AppDelegate.m in Sources */,
+				1B15541F1BD291F3007C0131 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B15542F1BD291F4007C0131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1554381BD291F4007C0131 /* DesigonModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B15543A1BD291F4007C0131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1554431BD291F4007C0131 /* DesigonModelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B1554351BD291F4007C0131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1554191BD291F3007C0131 /* DesigonModel */;
+			targetProxy = 1B1554341BD291F4007C0131 /* PBXContainerItemProxy */;
+		};
+		1B1554401BD291F4007C0131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B1554191BD291F3007C0131 /* DesigonModel */;
+			targetProxy = 1B15543F1BD291F4007C0131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B1554261BD291F3007C0131 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B1554271BD291F3007C0131 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B15542B1BD291F3007C0131 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B15542C1BD291F3007C0131 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B1554451BD291F4007C0131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B1554461BD291F4007C0131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B1554481BD291F4007C0131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesigonModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B1554491BD291F4007C0131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesigonModel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B15544B1BD291F4007C0131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesigonModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesigonModel.app/DesigonModel";
+			};
+			name = Debug;
+		};
+		1B15544C1BD291F4007C0131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DesigonModelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DesigonModel.app/DesigonModel";
+			};
+			name = Release;
+		};
+		1B15544E1BD291F4007C0131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesigonModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesigonModel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B15544F1BD291F4007C0131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DesigonModelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Huangjin.DesigonModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DesigonModel;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B1554151BD291F3007C0131 /* Build configuration list for PBXProject "DesigonModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1554451BD291F4007C0131 /* Debug */,
+				1B1554461BD291F4007C0131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B1554471BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1554481BD291F4007C0131 /* Debug */,
+				1B1554491BD291F4007C0131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B15544A1BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B15544B1BD291F4007C0131 /* Debug */,
+				1B15544C1BD291F4007C0131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B15544D1BD291F4007C0131 /* Build configuration list for PBXNativeTarget "DesigonModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B15544E1BD291F4007C0131 /* Debug */,
+				1B15544F1BD291F4007C0131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B1554121BD291F3007C0131 /* Project object */;
+}
